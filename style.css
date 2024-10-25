@@ -165,3 +165,39 @@ main{
 .slide_circle:hover{
     background-color: var(--main-gold);
 }
+
+.aboutUs_services{
+    background-color: red;
+    height: 100vh;
+}
+
+.about_us{
+    height: calc(100vh - 40vh);
+    background-color: red;
+}
+
+.services{
+    height: calc(100vh - 60vh);
+    background-color: green;
+}
+
+.aboutUs_header{
+    padding-top: 40px;
+}
+
+.aboutUs_header span{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.aboutUs_header span:nth-child(1){
+    color: black;
+    font-size: 30px;
+}
+
+
+.aboutUs_text_video{
+
+}
