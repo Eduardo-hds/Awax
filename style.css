@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: rgb(95, 95, 95);
+    
 }
 
 header{
@@ -409,4 +409,41 @@ main{
 
 .img_cover div:hover span{
     display: block;
+}
+
+.our_team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(/complementos/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.our_team .cover{
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+.our_team .services_header{
+    padding-top: 30px;
+}
+
+.our-team--pictures{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.our-team--pictures > div{
+    height: 200px;
+    background-color: white;
 }
